@@ -1,0 +1,2 @@
+Technos : 
+Nous sommes partis sur du C# pour l'api et du php pour le back-end.

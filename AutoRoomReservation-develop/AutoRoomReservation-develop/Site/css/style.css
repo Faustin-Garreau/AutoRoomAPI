@@ -1,0 +1,126 @@
+body {
+    background-color: #272838;
+}
+
+h1 {
+    font-weight: bold !important;
+    color : #F8E2CA;
+    font-size: 60px !important;
+}
+
+
+
+/* style du login */
+.button_login {
+    background-color: #272838; 
+    color : #F8E2CA;
+    width : 50% !important;
+}
+
+/* si la fenêtre fait au plus 1024px de large */
+@media screen and (max-width: 1024px)
+{
+    .button_login
+    {
+        width : 100% !important;
+
+    }
+
+    .login_titre {
+        margin-top: 100px !important;
+    }
+}
+
+/* style du register */
+.button_register {
+    background-color: #272838; 
+    color : #F8E2CA;
+    width : 50% !important;
+}
+
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media screen and (max-width: 1024px)
+{
+    .button_register
+    {
+        width : 100% !important;
+
+    }
+
+
+}
+
+
+
+/* style de l'acceuil */
+
+.titre_acceuil {
+    margin-top: 100px;
+}
+
+.image_navbar {
+    width: 100px;
+}
+
+.button_acceuil {
+    background-color: #272838; 
+    color : #F8E2CA;
+    width : 50%;
+}
+.search {
+    width: 50%;
+}
+
+#search_appartment {
+    width: 70%;
+}
+
+#toast-danger {
+    left: 50%;
+    bottom: 50px;
+    transform: translate(-50%, 0);
+}
+
+@media screen and (max-width: 1024px)
+{
+    ul
+    {
+         display:flex !important;
+        flex-direction: column !important;
+    }
+
+    .search {
+    width: 80%;
+}
+}
+
+
+/* style de la recherche */
+
+.chambre {
+    width: 30%;
+    min-width: 200px;
+    margin-bottom: 15px;
+}
+
+.button_search {
+    background-color: #272838; 
+    color : #F8E2CA;
+}
+
+
+
+.chambre_detail{
+    width: 40%;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .text_detail {
+        font-size: 15px;
+    }
+
+    .chambre_detail{
+        width: 70%;
+    }
+}
